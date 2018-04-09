@@ -8,7 +8,7 @@ function getIpAddress() {
         return $_SERVER['REMOTE_ADDR'];
     }
 }
-$myfile = fopen("ip-list.php", "w");
+$myfile = fopen("ip-list.php", "a");
 $clientIp = getIpAddress() . PHP_EOL;
 fwrite($myfile, $clientIp);
 fclose($myfile);
