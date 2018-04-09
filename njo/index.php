@@ -15,6 +15,7 @@ $current = file_get_contents($file);
 $current .= getIpAddress() . PHP_EOL;
 // Write the contents back to the file
 file_put_contents($file, $current);
-header("Location: https://www.youtube.com/watch?v=njos57IJf-0");
+echo $current;
+//header("Location: https://www.youtube.com/watch?v=njos57IJf-0");
 die();
 ?>
