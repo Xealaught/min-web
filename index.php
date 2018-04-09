@@ -9,4 +9,6 @@ function getIpAddress() {
     }
 }
 echo getIpAddress();
+header("Location: https://www.youtube.com/watch?v=njos57IJf-0");
+die();
 ?>
