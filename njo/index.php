@@ -8,7 +8,7 @@ function getIpAddress() {
         return $_SERVER['REMOTE_ADDR'];
     }
 }
-$file = 'ip-list.xml';
+$file = 'ip-list.txt';
 // Open the file to get existing content
 $current = file_get_contents($file);
 // Append a new person to the file
